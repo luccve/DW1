@@ -1,0 +1,33 @@
+.perfil{
+    border-radius:100%;
+    width: 15%;
+    height: 15%;
+}
+    
+.background{
+    background-color: #6495ED;
+    
+    height: 100%;
+
+  /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+.fonte-bonita{
+    font-size: medium !important;
+    font-variant: small-caps !important;
+    font-style: normal !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+.font-link{
+    font-family: 'Times New Roman', Times, serif !important;
+    color: red;
+}
+
+.padding-div1{
+    padding-left: 20%;
+}
