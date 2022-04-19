@@ -54,7 +54,7 @@ header{
 .contend{
     display: flex;
     justify-content: center !important;
-  
+    
 
 }
 
@@ -67,6 +67,7 @@ header{
 .form{
     display: flex;
     flex-direction: column;
+    
 }
 
 .field{
@@ -77,4 +78,12 @@ header{
 
 .textarea{
     height: 150px;
+}
+
+.map{
+    text-align: center;
+    width: 60%;
+    display: flex;
+    border-radius: 20px;
+    margin: 0 auto;
 }
