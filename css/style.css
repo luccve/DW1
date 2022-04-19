@@ -1,4 +1,5 @@
 body{
+    
     max-width: 3840px;
     max-height: 2160px;
     margin: 0 auto !important;
@@ -6,6 +7,7 @@ body{
     background-color: #993399 !important;
     background-image: url(https://i0.wp.com/diventare.com.br/wp-content/uploads/2019/01/background-site-antigo.jpg) !important;
     background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Courier New', Courier, monospace !important;
     padding-left: 20%;
     padding-right: 20%;
