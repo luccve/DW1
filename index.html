@@ -92,11 +92,12 @@
           <section class="content">
             <div class="contato">
               <h3>Formulário de contato</h3>
-              <form class="form" method="post" action="">
-                <input class="field" name="nome" placeholder="Nome" type="text">
-                <input class="field" name="email" placeholder="E-mail" type="email">
-                <textarea class="field"name="message" placeholder="Digite sua mensagem."></textarea>
+              <form class="form" method="POST" action="https://formspree.io/f/mvolwyap" enctype="text/plain">
+                <input class="field" name="nome" placeholder="Nome" type="text" required>
+                <input class="field" name="email" placeholder="E-mail" type="email" required>
+                <textarea class="field"name="message" placeholder="Digite sua mensagem." rows="5" required></textarea>
                 <input class="field" type="submit" value="Enviar">
+                <input class="field" type="reset" value="Limpar">
               </form>
             </div>
           </section>
