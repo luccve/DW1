@@ -75,7 +75,7 @@ header{
     width: 100%;
     display: inline-block;
     margin: 0 auto;
-    padding: 5px;
+    padding: 20px;
     background-color: aliceblue;
     
 }
@@ -178,3 +178,14 @@ li{
     border-radius: 120px !important;
    
 }
+
+.controle{ 
+    width: 100% !important;
+    text-align: center !important;
+}
+
+fieldset{
+    justify-items: flex-start !important;
+    padding: 9px !important;
+}
+
