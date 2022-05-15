@@ -1,8 +1,6 @@
 body{
     width:  720px !important;
     height:  480px !important;
-    max-width: 1920px !important;
-    max-height: 1080px !important;
     margin: 0 auto !important;
     padding-top: 5% !important;
 }
@@ -56,4 +54,7 @@ table{
     width: 15%;
     background-color: #C7E7F3;
     font-weight: 100;
+}
+.center{
+    text-align: center !important;
 }

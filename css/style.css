@@ -1,29 +1,24 @@
 
-header{
-    display: flex !important;
-    
-    
-
-}
 
 .backgroundimg{
-    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png) !important;
-    padding-top: 10%;
-    background-size: cover;
-    
+    background-color: #4118b3 !important;
+    flex-direction: row !important;
+    display: block !important;
+    height: auto;
 
 }
 
 
 
 .perfil{
+    
+    max-height: 160px;
     border-radius:100%;
-    width: 15%;
-    height: 15%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-  
+    border: 2px  solid white !important;
+    margin: 0 auto !important;
+    
+
 }
 
 .menu-bar{
@@ -31,16 +26,11 @@ header{
     background-color: black;
     opacity: 95%;
     display: inline-flex;
-    justify-content: space-between;
-    border-style: none;
-    font-size: 30px;
-  
-    
+    width: 100%;
 }
 
 .menu-bar a {
     color: aliceblue !important;
-    text-decoration: none;
     padding-right: 30px;  
 
 }
@@ -59,8 +49,8 @@ header{
     
     text-align: center;
     width: 100%;
-    display: inline-block;
-    margin: 0 auto;
+    display: block;
+    margin: 0 auto !important;
     padding: 20px;
     background-color: aliceblue;
     font-size: 10pt !important;
@@ -102,7 +92,13 @@ label{
     border-bottom: none !important;
     font-size: 10pt !important;
     
+    
 }
+
+.nav{
+    margin: 0 auto !important;
+}
+
 
 .central{
     padding-top: 7px !important;
@@ -133,8 +129,9 @@ h4{
 }
 
 .nav-link{
-    color: #993399 !important;
+    color: red !important;
     font-weight: bolder;
+    padding: 20px !important;
     
 }
 
@@ -142,6 +139,7 @@ h4{
     border-color: white !important;
     transition: 60ms !important;
     border: 2px solid !important;
+    
 }
 p{
     color: aliceblue;
@@ -194,21 +192,36 @@ h3{
 }
 
 body{
-    
-    max-width: 3840px;
-    max-height: 2160px;
+    background-color: #4118b3 !important;
+    max-width: 1920px;
+    max-height: auto !important;
     margin: 0 auto !important;
     color: black !important;
-    background-color: #993399 !important;
-    background-image: url(https://i0.wp.com/diventare.com.br/wp-content/uploads/2019/01/background-site-antigo.jpg) !important;
-    background-size: cover;
-    background-repeat: no-repeat;
     font-family: 'Courier New', Courier, monospace !important;
-    padding-left: 20%;
-    padding-right: 20%;
     font-size: 10pt !important;
 }
 
 form{
     font-size: 10pt !important;
 }
+
+footer{
+    padding-top: 5px !important;
+    
+   
+    background-color: #4118b3;
+    height: 400px;
+    padding: 25px;
+}
+
+
+
+.center{
+    text-align: center;
+}
+
+.imgrow2{
+    background-color: #023047 !important;
+    flex: 1 !important;
+}
+
