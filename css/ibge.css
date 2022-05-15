@@ -1,0 +1,59 @@
+body{
+    width:  720px !important;
+    height:  480px !important;
+    max-width: 1920px !important;
+    max-height: 1080px !important;
+    margin: 0 auto !important;
+    padding-top: 5% !important;
+}
+
+.titulo{
+    background-color: #0D5188;
+    color: white;
+    width: 592px;
+    justify-content: center;
+    margin-left: 4px;
+    
+}
+
+.titulo1{
+    background-color: #66C5E3;
+    color: black;
+    text-align: center;
+  
+}
+
+.titulo2{
+    background-color: #C7E7F3;
+    color: blacks;
+    text-align: center;
+}
+
+
+
+.position{
+    background-color: silver !important;
+    color: black;
+    width: 10%;
+    font-weight: 100;
+}
+
+
+
+table{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bolder;
+    width: 600px;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+    
+}
+
+
+.populacao{
+    width: 15%;
+    background-color: #C7E7F3;
+    font-weight: 100;
+}

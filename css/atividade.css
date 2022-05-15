@@ -1,0 +1,30 @@
+
+
+.extremos{
+    padding-top: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+   
+}
+
+
+
+.texto{
+    font-family: Verdana;
+    font-size: 12px !important;
+    color: red !important;
+    line-height: 24px;
+    text-align: center;
+    border: medium solid black;
+    
+}
+
+.nav-link:hover{
+    border: 2px solid blue;
+    border-radius: 15px;
+    color: white !important;
+    font-weight: bolder;
+    background-color: blue !important;
+
+}
+
